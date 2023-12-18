@@ -1,5 +1,5 @@
 body {
-    background: url("../static1/img/destination/background-destination-desktop.jpg") no-repeat center/cover;
+    background: url("../img/destination/background-destination-desktop.jpg") no-repeat center/cover;
 }
 
 #leftSection h5 {
@@ -19,7 +19,7 @@ body {
 
 @media(max-width:375px) {
     body {
-        background: url("../static1/img/destination/background-destination-mobile.jpg") no-repeat center/cover;
+        background: url("../img/destination/background-destination-mobile.jpg") no-repeat center/cover;
     }
 
     .container {
