@@ -1,5 +1,5 @@
 body {
-    background: url("../static1/img/technology/background-technology-desktop.jpg") no-repeat center/cover;
+    background: url("../img/technology/background-technology-desktop.jpg") no-repeat center/cover;
 }
 
 #leftSection h4 {
@@ -20,7 +20,7 @@ body {
 
 @media(max-width:375px) {
     body {
-        background: url("../static1/img/technology/background-technology-mobile.jpg") no-repeat center/cover;
+        background: url("../img/technology/background-technology-mobile.jpg") no-repeat center/cover;
     }
 
     .container {
