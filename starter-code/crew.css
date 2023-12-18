@@ -1,5 +1,5 @@
 body {
-    background: url("../static1/img/crew/background-crew-desktop.jpg") no-repeat center/cover;
+    background: url("../img/crew/background-crew-desktop.jpg") no-repeat center/cover;
 }
 
 #leftSection h4 {
@@ -21,7 +21,7 @@ body {
 
 @media(max-width:375px) {
     body {
-        background: url("../static1/img/crew/background-crew-mobile.jpg") no-repeat center/cover;
+        background: url("../img/crew/background-crew-mobile.jpg") no-repeat center/cover;
     }
 
     .container {
