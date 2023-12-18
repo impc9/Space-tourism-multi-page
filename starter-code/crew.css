@@ -1,0 +1,47 @@
+body {
+    background: url("../static1/img/crew/background-crew-desktop.jpg") no-repeat center/cover;
+}
+
+#leftSection h4 {
+    font-size: 3vw;
+}
+
+#leftSection h1 {
+    font-size: 7vw;
+}
+
+#rightSection img{
+    height: 90%;
+    border: 5px solid black rgba(255, 255, 255, 0.8);
+    border-radius: 5%;
+    /* box-shadow: right/left botton/top blurr color; */
+    box-shadow: 0px 0px 100px 0px rgb(0, 0, 0);
+    z-index: -1;
+}
+
+@media(max-width:375px) {
+    body {
+        background: url("../static1/img/crew/background-crew-mobile.jpg") no-repeat center/cover;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    #leftSection h4 {
+        font-size: 4vw;
+    }
+    
+    #leftSection h1 {
+        font-size: 8vw;
+    }
+
+    #leftSection p {
+        font-size: 3vw;
+    }
+    
+    #rightSection img{
+        height: 100%;
+    }
+
+}

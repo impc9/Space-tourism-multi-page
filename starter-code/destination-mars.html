@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="dest.css">
+  
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+
+  <!-- 00 Home
+  01 Destination
+  02 Crew
+  03 Technology
+
+  01 Pick your destination
+
+  Moon
+  Mars
+  Europa
+  Titan
+
+  Mars
+
+  Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, 
+  the tallest planetary mountain in our solar system. It’s two and a half times 
+  the size of Everest!
+
+  Avg. distance
+  225 mil. km
+
+  Est. travel time
+  9 months -->
+
+  <nav>
+    <div id="logo">
+      <a href="./">
+      <img src="../static1/img/shared/logo.svg" alt="" srcset=""></a>
+    </div>
+    <div id="line"></div>
+    <ul id="links">
+      <div id="close">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21"><g fill="#D0D6F9" fill-rule="evenodd"><path d="M2.575.954l16.97 16.97-2.12 2.122L.455 3.076z"/><path d="M.454 17.925L17.424.955l2.122 2.12-16.97 16.97z"/></g></svg>
+      </div>
+      <li><a href="./"><b>00</b>Home</a></li>
+      <li id="destination"><a href="#destLinks "><b>01</b>Destination</a>
+        <div class="dropdown-content" id="destLinks">
+          <h6>01 Pick your destination</h6>
+          <a href="./destination-moon.html">Moon</a>
+          <a href="./destination-mars.html">Mars</a>
+          <a href="./destination-europa.html">Europa</a>
+          <a href="./destination-titan.html">Titan</a>
+        </div>
+      </li>
+      <li id="crew"><a href="#crewLinks"><b>02</b>Crew</a>
+        <div class="dropdown-content" id="crewLinks">
+          <h6>02 Meet your crew</h6>
+          <a href="./crew-commander.html">Commander</a>
+          <a href="./crew-engineer.html">Engineer</a>
+          <a href="./crew-pilot.html">Pilot</a>
+          <a href="./crew-specialist.html">Specialist</a>
+        </div>
+      </li>
+      <li id="technology"><a href="#techLinks"><b>03</b>Technology</a>
+        <div class="dropdown-content" id="techLinks">
+          <h6>03 Space launch 101</h6>
+          <a href="./technology-capsule.html">Capsule</a>
+          <a href="./technology-spaceport.html">Spaceport</a>
+          <a href="./technology-vehicle.html">Vehicle</a>
+        </div>
+      </li>
+    </ul>
+    <div id="hamburger">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="21"><g fill="#D0D6F9" fill-rule="evenodd"><path d="M0 0h24v3H0zM0 9h24v3H0zM0 18h24v3H0z"/></g></svg>
+    </div>
+  </nav>
+  <div class="container">
+    <div id="leftSection">
+      <h1>Mars</h1>
+      <p>Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, 
+        the tallest planetary mountain in our solar system. It’s two and a half times 
+        the size of Everest!</p>
+        <h4>Avg. distance</h4>
+        <h5>225 mil. km</h5>
+        <h4>Est. travel time</h4>
+        <h5>9 months</h5>
+    </div>
+    <div id="rightSection">
+      <img src="../static1/img/destination/image-mars.png" alt="Mars">
+    </div>
+  </div>
+</body>
+<script src="index.js"></script>
+</html>
