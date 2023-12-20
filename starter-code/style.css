@@ -211,36 +211,49 @@ nav {
     }
 
     #links {
+        backdrop-filter: blur(0);
+        background: none;
         height: 90%;
         width: 0;
         right: 0;
         display: flex;
+        align-items: flex-end;
         flex-direction: column;
         position: absolute;
         top: 5%;
+        overflow: hidden;
     }
 
     #close {
+        background: linear-gradient(to left, #929090, #333 100%);
         display: flex;
-        width: 90%;
+        width: 50%;
+        height: 10%;
         justify-content: right;
+        align-items: center;
+        padding-right: 5%;
+        outline: none;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
     }
 
     #links li {
-        margin-left: 5%;
+        background: linear-gradient(to left, #929090, #333 100%);
+        width: 50%;
+        padding-left: 5%;
         height: 10%;
         display: flex;
         justify-content: left;
+        border-top-left-radius: 10px;
+        border-bottom-left-radius: 10px;
     }
 
     #links li a {
-        width: 90%;
+        width: 100%;
         font-size: 5vw;
     }
 
     #links li a:hover {
-        border-left: 2px solid white;
-        border-bottom: none;
         padding-left: 5px;
     }
 
@@ -250,17 +263,16 @@ nav {
     }
 
     .dropdown-content {
-        backdrop-filter: blur(50px);
-        background-color: rgb(49, 48, 48);
-        backdrop-filter: blur(100px);
         position: absolute;
         top: 0;
-        right: 100%;
-        display: none;
+        left: 5%;
+        display: flex;
         flex-direction: column;
         align-items: center;
-        width: 80%;
-        border-radius: 15px;
+        width: 0;
+        right: 0;
+        border-radius: 0;
+        overflow: hidden;
     }
 
     .dropdown-content h6 {
@@ -268,8 +280,10 @@ nav {
     }
 
     .dropdown-content a {
+        background: linear-gradient(to left, #929090, #333 100%);
         line-height: 2;
         padding: 5px 10px;
+        border-radius: 10px;
     }
 
     .container {
