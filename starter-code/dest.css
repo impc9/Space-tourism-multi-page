@@ -27,11 +27,11 @@ body {
     }
 
     #leftSection h5 {
-        font-size: 2vw;
+        font-size: 3vw;
     }
     
     #rightSection img{
-        height: 95%;
+        height: 100%;
     }
 
 }
