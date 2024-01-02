@@ -42,13 +42,6 @@ hamburger.addEventListener("click", () => {
   document.getElementById("links").style.width = "100%"
   document.getElementById("links").style.transition = "width 1s"
 })
-let explore = document.getElementById("explore");
-explore.addEventListener("click", () => {
-  if(document.body.offsetWidth <= "375"){
-    document.getElementById("links").style.width = "100%"
-    document.getElementById("links").style.transition = "width 1s"
-  }
-})
 let closeBtn = document.getElementById("close");
 closeBtn.addEventListener("click", () => {
   document.getElementById("links").style.transition = "width 1s"
